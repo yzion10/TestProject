@@ -9,13 +9,14 @@ pipeline {
                 git 'https://github.com/yzion10/TestProject.git'
             }
         }
-        stage('run python') {
-            steps {
-                script 
-                {
-                   bat 'second.py'
-                }
-            }
-        }
+//         stage('run python')
+//         {
+//             steps {
+//                 script
+//                 {
+//                    bat 'second.py'
+//                 }
+//             }
+//         }
     }
 }
