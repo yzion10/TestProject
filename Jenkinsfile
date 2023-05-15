@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script
                 {
-                   bat 'python second.py'
+                   bat 'python.exe second.py'
                 }
             }
         }
