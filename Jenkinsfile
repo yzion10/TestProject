@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script
                 {
-                   bat '\\venv\\Scripts\\python second.py'
+                   bat 'python second.py'
                 }
             }
         }
