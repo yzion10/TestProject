@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script 
                 {
-                   bat second.py
+                   bat 'second.py'
                 }
             }
         }
