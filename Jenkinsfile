@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                script {
-                    properties([pipelineTriggers([pollSCM('* * * * *')])])
-                }
+//                 script {
+//                     properties([pipelineTriggers([pollSCM('* * * * *')])])
+//                 }
                 git 'https://github.com/yzion10/TestProject.git'
             }
         }
