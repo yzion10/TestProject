@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script
                 {
-                   bat 'python C:\\DevOps\\GIT\\14.05.2023\\TestProject\\second.py'
+                   bat 'python second.py'
                 }
             }
         }
