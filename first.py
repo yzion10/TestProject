@@ -1,5 +1,5 @@
 username = 'usr'
-password = '123456'
+password = '1234567'
 
 def name():
     print("yosi zion")
